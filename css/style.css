@@ -494,7 +494,14 @@ a:focus {
 }
 
 .carousel-indicators li{
-    padding: 30px;
+    padding: 12px;
+}
+.carousel-indicators{
+    margin-bottom: 5px;
+}
+
+.carosello-descrizione {
+    padding-bottom: 5px;
 }
 
 
