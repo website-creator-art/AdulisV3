@@ -16,7 +16,12 @@ body{
 .h1, .h2, .h3, h1, h2, h3 {
     margin:0px;
 }
-
+/* added css */
+#cici{
+    position:fixed;
+    top:0;
+    transition: top 0.5s; /* Transition effect when sliding down (and up) */
+}
 /*Navigation*/
 .navbar-header {
     float: none;
@@ -89,7 +94,7 @@ a:focus {
     left: 50%;
     position: absolute;
     text-align: center;
-    top: 25%;
+    top: 35%;
     transform: translate(-50%, -25%);
 }
 .image-content{
@@ -489,6 +494,11 @@ a:focus {
     margin: auto;
   }
 
+.item img {
+    object-fit:cover;
+    min-height: 500px;
+}
+
 #carosellobello {
     padding: 40px 0 60px 0;
 }
@@ -503,5 +513,4 @@ a:focus {
 .carosello-descrizione {
     padding-bottom: 5px;
 }
-
 
