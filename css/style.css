@@ -515,7 +515,9 @@ a:focus {
 }
 
 @font-face {
-    font-family: Zanzabar;
-    src: url("Zanzabar.otf") format("opentype")
+    font-family: 'Zanzabar Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Zanzabar Regular'), url('Zanzabar.woff') format('woff');
 }
 
