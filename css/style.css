@@ -493,3 +493,8 @@ a:focus {
     padding: 40px 0 60px 0;
 }
 
+.carousel-indicators li{
+    padding: 30px;
+}
+
+
