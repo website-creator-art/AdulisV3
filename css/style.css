@@ -518,6 +518,6 @@ a:focus {
     font-family: 'Zanzabar Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Zanzabar Regular'), url('Zanzabar.woff') format('woff');
+    src: url(Zanzabar.woff) format('woff');
 }
 
