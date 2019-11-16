@@ -64,12 +64,11 @@
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos+0.60) {
+  if (prevScrollpos > currentScrollPos+0.55) {
     document.getElementById("cici").style.top = "0";
   } else {
     document.getElementById("cici").style.top = "-50px";
     document.getElementById("cici").style.padding = "0px";
-    document.getElementById("pippo").style.display = "none";
   }
   prevScrollpos = currentScrollPos;
 }
