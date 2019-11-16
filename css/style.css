@@ -514,3 +514,8 @@ a:focus {
     padding-bottom: 5px;
 }
 
+@font-face {
+    font-family: Zanzabar;
+    src: url(Zanzabar.otf);
+}
+
