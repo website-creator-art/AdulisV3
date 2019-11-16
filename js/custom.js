@@ -67,7 +67,7 @@ window.onscroll = function() {
   if (prevScrollpos > currentScrollPos+0.75) {
     document.getElementById("cici").style.top = "0";
   } else {
-    document.getElementById("cici").style.top = "-50px";
+    document.getElementById("cici").style.top = "-75px";
     document.getElementById("pippo").style.padding = "0px";
   }
   prevScrollpos = currentScrollPos;
