@@ -68,7 +68,6 @@ window.onscroll = function() {
     document.getElementById("cici").style.top = "0";
   } else {
     document.getElementById("cici").style.top = "-50px";
-    document.getElementById("cici").style.padding = "0px";
   }
   prevScrollpos = currentScrollPos;
 }
