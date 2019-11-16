@@ -64,10 +64,10 @@
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos+0.55) {
+  if (prevScrollpos > currentScrollPos+0.75) {
     document.getElementById("cici").style.top = "0";
   } else {
-    document.getElementById("cici").style.top = "-50px";
+    document.getElementById("cici").style.top = "-55px";
   }
   prevScrollpos = currentScrollPos;
 }
