@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Zanzabar Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url("Zanzabar.woff") format('woff'),
+         url("Zanzabar.ttf") format('truetype');
+}
