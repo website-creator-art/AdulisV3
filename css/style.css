@@ -1,17 +1,4 @@
-/*
-Template: Demo 6
-FileName:style.css
-Author Name: Themevault
-Author URI:http://www.themevault.net/
-License URI: http://www.themevault.net/license/
-*/
-@font-face {
-    font-family: 'Zanzabar Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: url("Zanzabar.woff") format('woff'),
-         url("Zanzabar.ttf") format('truetype');
-}
+
 
 body{
     margin:0;
@@ -518,6 +505,7 @@ a:focus {
 }
 
 .carosello-descrizione {
-    padding-bottom: 5px;
+    padding-bottom: 0px;
 }
+
 
